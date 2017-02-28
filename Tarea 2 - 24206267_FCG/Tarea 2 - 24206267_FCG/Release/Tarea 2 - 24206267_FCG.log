@@ -1,0 +1,70 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Tarea 1 - 24206267_FCG.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Main.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  C:\Users\Alejandro\Documents\Fundamentos y Tecnicas en Computacion Grafica\Tarea 2\FCG_Tarea2\include\GLFW/glfw3.h(98): note: see previous definition of 'APIENTRY'
+c:\users\alejandro\documents\fundamentos y tecnicas en computacion grafica\tarea 2\fcg_tarea2\tarea 2 - 24206267_fcg\tarea 2 - 24206267_fcg\GLSLProgram.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\alejandro\documents\fundamentos y tecnicas en computacion grafica\tarea 2\fcg_tarea2\tarea 2 - 24206267_fcg\tarea 2 - 24206267_fcg\Modelos.h(33): warning C4305: 'initializing': truncation from 'double' to 'float'
+Main.cpp(15): warning C4305: 'initializing': truncation from 'double' to 'float'
+Main.cpp(16): warning C4305: 'initializing': truncation from 'double' to 'float'
+Main.cpp(17): warning C4305: 'initializing': truncation from 'double' to 'float'
+Main.cpp(23): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+Main.cpp(23): warning C4305: 'initializing': truncation from 'double' to 'float'
+Main.cpp(65): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(66): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(67): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(68): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(69): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(74): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(75): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(76): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(77): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(81): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(82): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(83): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(84): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(85): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(89): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(90): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(91): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(92): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(93): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(97): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(98): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(99): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(100): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(101): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(105): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(106): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(107): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(108): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(109): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(123): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+Main.cpp(149): warning C4018: '<': signed/unsigned mismatch
+Main.cpp(171): warning C4244: 'argument': conversion from 'lightT' to 'GLfloat', possible loss of data
+Main.cpp(187): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(212): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(216): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(224): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(383): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Main.cpp(400): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+Main.cpp(448): warning C4244: 'argument': conversion from 'lightT' to 'GLfloat', possible loss of data
+Main.cpp(464): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+Main.cpp(488): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(492): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(500): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(595): warning C4244: 'argument': conversion from 'lightT' to 'GLfloat', possible loss of data
+Main.cpp(628): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(727): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+Main.cpp(751): warning C4018: '<': signed/unsigned mismatch
+Main.cpp(759): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(763): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(771): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(858): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+  Generating code
+  12 of 1302 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    23 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Tarea 2 - 24206267_FCG.vcxproj -> C:\Users\Alejandro\Documents\Fundamentos y Tecnicas en Computacion Grafica\Tarea 2\FCG_Tarea2\Tarea 2 - 24206267_FCG\Release\Tarea 2 - 24206267_FCG.exe
+  Tarea 2 - 24206267_FCG.vcxproj -> C:\Users\Alejandro\Documents\Fundamentos y Tecnicas en Computacion Grafica\Tarea 2\FCG_Tarea2\Tarea 2 - 24206267_FCG\Release\Tarea 2 - 24206267_FCG.pdb (Full PDB)

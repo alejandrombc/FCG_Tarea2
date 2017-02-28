@@ -1,0 +1,47 @@
+#version 400
+uniform mat4 view_matrix;
+uniform mat4 projection_matrix; 
+uniform mat4 model_matrix;
+uniform mat4 shadowMat;
+uniform mat4 reflect_matrix;
+uniform mat4 lightSpaceMatrix;
+uniform vec3 view;
+uniform int position_i;
+uniform bool hayNormalMapping;
+
+in vec3 position;
+in vec2 coord_texturas;
+in vec3 normal;
+in vec3 tangentes;
+
+out vec3 FragPos;
+out vec3 normales;
+out vec2 coordTex;
+out vec4 FragPosLuz;
+
+out mat3 TBN;
+
+
+
+mat3 Calculo_TBN(vec3 normales, vec3 tangentes)
+{
+    vec3 Normal = normalize(normales);
+    vec3 Tangent = normalize(tangentes);
+    Tangent = normalize(Tangent - dot(Tangent, Normal) * Normal);
+    vec3 Bitangent = cross(Tangent, Normal);
+    mat3 TBN = mat3(Tangent, Bitangent, Normal);
+    return TBN;
+}
+
+void main()
+{
+   mat4 models_reflect = shadowMat * reflect_matrix * model_matrix;
+   gl_Position = projection_matrix * view_matrix * models_reflect * vec4(position, 1.0);
+   coordTex = coord_texturas;
+   FragPos = vec3(models_reflect * vec4(position, 1.0));
+   normales = mat3(transpose(inverse(models_reflect))) * normal;
+
+   TBN = Calculo_TBN(normales, tangentes);
+
+   FragPosLuz = lightSpaceMatrix * vec4(FragPos, 1.0);
+}

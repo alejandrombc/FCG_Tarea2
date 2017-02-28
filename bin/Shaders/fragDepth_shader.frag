@@ -1,0 +1,25 @@
+#version 400
+in vec2 TexCoords;
+
+out vec4 color;
+
+uniform sampler2D depthMap_T;
+uniform int currentL;
+
+uniform float far_plane;
+uniform float near_plane;
+
+
+float LinearizeDepth(float depth)
+{
+    float z = depth * 2.0 - 1.0; // Back to NDC 
+    return (2.0 * near_plane * far_plane) / (far_plane + near_plane - z * (far_plane - near_plane));
+}
+
+
+void main()
+{             
+    float depthValue = texture(depthMap_T, TexCoords).r;
+    if(currentL == 3) color = vec4(vec3(LinearizeDepth(depthValue) / far_plane), 1.0); // perspective
+    else color = vec4(vec3(depthValue), 1.0);
+}  
