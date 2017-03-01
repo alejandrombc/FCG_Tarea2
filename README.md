@@ -41,7 +41,7 @@ En el menu de inicio del programa podra editar el factor de refraccion del model
 
 Todos los modelos cuentan con la edicion de parametros como colores ambientales, difuso y especular del material, poder activar/desactivar texturas, editar su BIAS de antialiasing, asi como transformaciones basicas como rotar/escalar/trasladar. 
 
-Para la luz (esfera solar) podra editar que tipo de iluminacion sera (Puntual, Direccional o Reflector). Cabe destacar que la direccion del spot tambien se edita en esta nueva ventana. Tambien se tiene un boton para activar/desactivar la luz y la edicion de los colores de la luz difuso, especular y ambiental. Aqui podra prender y apagar la luz si asi lo desea.
+Para la luz (esfera solar) podra editar que tipo de iluminacion sera (Puntual, Direccional o Reflector). Cabe destacar que la direccion del spot tambien se edita en esta nueva ventana. Tambien se tiene un boton para activar/desactivar la luz y la edicion de los colores de la luz difuso, especular y ambiental.
 
 En la tarea se manejan los modelos difuso y especular Lambert y Blinn-Phong, respectivamente. 
 
