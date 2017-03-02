@@ -78,7 +78,7 @@ Para usar el proyecto se debe primero clonar el repositorio con el siguiente com
 
 > git clone https://github.com/alejandrombc/FCG_Tarea2.git
 
-Con esto puede ejecutar el ejecutable en la carpeta _/bin_ o abrir el proyecto de VS ubicado en _/Tarea 1 - 24206267_FCG_ con extension **.sln**.
+Con esto puede ejecutar el ejecutable en la carpeta _/bin_ o abrir el proyecto de VS ubicado en _/Tarea 2 - 24206267_FCG_ con extension **.sln**.
 
 
 # Autor
